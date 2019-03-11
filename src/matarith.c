@@ -28,3 +28,15 @@ int matrix_mult(int * out, int * first_matrix, int *second_matrix, int first_col
 	
 	return 0;
 }
+
+int matrix_trans(int * out, int * in, int row_count, int col_count) {
+	int row, col;
+
+	for(row = 0; row < row_count; row++) {
+		for(col = 0; col < col_count; col++) {
+			out[row * col_count + col] = in[col * row_count + row];
+		}
+	}
+
+	return 0;
+}

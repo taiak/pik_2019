@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "matarith.h"
+#include "../src/matarith.h"
 
 int main(){
 	int a[] = {
