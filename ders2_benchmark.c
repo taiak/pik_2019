@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <x86intrin.h>
-#include "matarith.c"
+#include "src/matarith.c"
 
 // compile params: gcc ders2_benchmark.c -g && ./a.out
 

@@ -6,7 +6,7 @@ int matrix_add(int * out, int * first, int *second, int satir, int sutun) {
 	return 0;
 }
 
-int matrix_sub(int * out, int * first, int *second, int satir, int sutun) {
+int matrix_sub(int * out, int * first, int *second, int satir, int sutun) {z
 	int size = satir * sutun;
 	while(size--)
 		*(out++) = *(first++) - *(second++);
