@@ -1,3 +1,6 @@
+# bir kütüphaneyi gcc 7 nin içinde arayan betik 
+# ./search_function "aranan_fonksiyon"
+# şeklinde çalıştırılır
 function get_function(){
 	  function_name=$1
 
