@@ -1,2 +1,2 @@
 # pik_2019
-pok daha güzelmiş
+Programlamada özel konular dersi kapsamında yazılan kodları içerir
