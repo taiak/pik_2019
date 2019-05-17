@@ -5,7 +5,7 @@
 // gcc -fno_inline .. ile yapıştırma yapmak yerine fonksiyon olarak kullanır
 
 #define N 10000
-#define max(a,b) max(a,b) { (a > b) ? a : b }
+#define max(a,b) { (a > b) ? a : b }
 
 
 #define fib_hoca(N, __return_value__) {\
@@ -105,7 +105,7 @@ int main(int argc, char * argv[]){
     printf("h: %.4f\n", bef - af);
     
     bef = fib_test(N, test_count);
-    af  =  fib_inline_test(N, test_count);
+    af  = fib_inline_test(N, test_count);
     printf("m: %.4f\n", bef - af);
     putchar('\n');
     return 0;

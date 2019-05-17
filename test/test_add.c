@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include "../src/matarith.h"
+#include "../src/matarith_pragma.h"
+#include "../src/matarith_pragma.h"
+#include "../src/matarith.c"
 
 int main(){
 	int a[] = {1,2,3,4,5,6};

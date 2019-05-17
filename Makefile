@@ -15,5 +15,5 @@ lib: $(OBJ)
 test: libmatarith.a
 	gcc -o t3st -L./ test/test_add.c -lmatarith
 
-#clean:
-#	rm -f *.o *.a
+clean:
+	rm -f *.o *.a
